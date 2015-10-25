@@ -1,0 +1,16 @@
+﻿huong dan su dung
+
+1. su dụng phpmyadmin tạo database webdulich và load file webdulich.sql vào (trong thư mục database).
+2. Mở file config/config.php để sửa lại cấu hình cho phù hợp
+3. Chạy thử kết quả phần-user. (http://localhost/webdulich)
+5. Chạy thử kết quả phần admin (http://localhost/webdulich/admin)
+
+Ví dụ với tên đăng nhập đã được tạo sẵn:
+
+--Khách hàng:
+Tên đăng nhập: mymy
+Mật khẩu: mymy
+
+--Admin
+Tên đăng nhập: admin
+Mật khẩu: 123
