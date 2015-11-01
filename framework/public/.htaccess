@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# make sure that the path requested is not a filename or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# redirects all such paths to index.php?url=PATHNAME
+RewriteRule ^(.*)$ index.php?url=$1 [PT,L]
+
+</IfModule>
